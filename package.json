@@ -1,0 +1,24 @@
+{
+  "name": "npm-webpack-spritesmith",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "webpack": "webpack -w",
+    "lite": "lite-server",
+    "watch-css": "nodemon -e scss -x \"npm run build-css\"",
+    "start": "concurrently \"npm run lite\" \"npm run webpack\""
+  },
+  "keywords": [],
+  "author": "shigeki.takeguchi",
+  "license": "ISC",
+  "homepage": "https://github.com/shigekitakeguchi/npm-webpack-spritesmith#readme",
+  "devDependencies": {
+    "concurrently": "^2.2.0",
+    "lite-server": "^2.2.2",
+    "path": "^0.12.7",
+    "spritesmith-cli": "^1.1.2",
+    "webpack": "^1.13.1",
+    "webpack-spritesmith": "^0.2.5"
+  }
+}
