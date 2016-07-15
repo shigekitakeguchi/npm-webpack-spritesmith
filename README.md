@@ -1,0 +1,1 @@
+# npm-webpack-spritesmith
